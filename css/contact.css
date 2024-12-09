@@ -1,0 +1,238 @@
+body {
+    color: #bfc1c8;
+    background-color: #1e202b;
+    line-height: 1.5;
+}
+
+.h {
+    min-height: 150px;
+}
+
+.m-l {
+    margin-left: 8.3333333333%;
+}
+
+/* navbar */
+nav {
+    padding: 50px 0 !important;
+    background-color: #1e202b !important;
+}
+
+
+.logo-title {
+    font-size: 20px;
+    color: #fff;
+}
+
+.nav-description {
+    font-size: 10px;
+    display: block;
+    color: #bfc1c8;
+    margin-left: 3px;
+}
+
+.logo-image {
+    margin-right: 10px;
+
+}
+
+.site-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav li {
+    margin-left: 50px;
+}
+
+nav ul a {
+    border: 2px solid transparent !important;
+    border-radius: 30px !important;
+    color: white !important;
+    transition: 0.3s ease !important;
+    font-weight: 400 !important;
+}
+
+nav a:hover {
+    border-color: #009ad8 !important;
+    color: #009ad8 !important;
+}
+
+ .my-nav .for-contact {
+    border-color: #009ad8 !important;
+    color: #009ad8 !important;
+}
+ 
+/*End navbar */
+
+
+main .small-nav {
+    background: #262936;
+    border-radius: 40px;
+    padding: 20px 30px;
+    font-size: 13px;
+}
+
+main .small-nav a::after {
+    content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    width: 12px;
+    height: 7px;
+    background: url(../images/arrow-gray.png) no-repeat;
+    margin: 0 10px;
+}
+
+
+main .small-nav a {
+    color: #bfc1c8;
+    text-decoration: none;
+}
+
+
+main .small-nav a:hover {
+    text-decoration: underline;
+}
+
+main .small-nav span {
+    color: #fff;
+}
+
+
+
+main .big-box {
+    padding: 70px 0;
+}
+
+
+main .big-box .content {
+    background: #262936;
+    border-radius: 10px;
+}
+
+
+main .big-box .content .map {
+    height: 220px;
+}
+
+main .big-box .content .contact {
+    padding: 20px;
+}
+
+
+
+main .big-box .content .contact address {
+    padding-left: 30px;
+    position: relative;
+}
+
+main .big-box .content .contact address img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+main .big-box .content .contact a {
+    margin-right: 10px;
+    color: #bfc1c8;
+    text-decoration: none;
+}
+
+main .big-box .content .contact img {
+    margin-right: 10px;
+}
+
+
+.big-box h2 {
+    font-weight: 300;
+    color: white;
+    font-size: 36px;
+    margin: 0 0 20px;
+    line-height: normal;
+}
+
+.big-box .form-contact input , textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: white;
+    border: 2px solid #393c48;
+    background: transparent;
+    border-radius: 30px;
+}
+
+
+.big-box .form-contact .form-button {
+    text-align: right ;
+}
+
+.big-box .form-contact .form-button button {
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+
+
+
+
+
+
+footer .subscribe {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+footer .subscribe .footer-input {
+    padding: 20px 100px 20px 20px;
+    background-color: #1e202b;
+    width: 100%;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+
+footer .subscribe .second-input {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    border: none;
+    background-color: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+.foot {
+    background: #262936;
+    padding: 50px 0;
+}
+
+.foot .icons {
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.foot .icons a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    transition: 0.3s ease;
+    font-size: 20px;
+}
+
+.foot .icons a:hover {
+    background: #009ad8;
+    color: white;
+}
+
+
